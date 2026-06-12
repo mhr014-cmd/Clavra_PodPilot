@@ -16,6 +16,7 @@ env/
 
 # Node
 node_modules/
+dist/
 .cache/
 *.local
 
@@ -30,15 +31,18 @@ datasets/
 *.swo
 .DS_Store
 
+# Docker volumes / Archives
+*.tar.gz
+*.zip
+
 # Logs
 *.log
 logs/
-
-# Archives
-*.zip
-*.tar.gz
 
 # Test coverage
 htmlcov/
 .coverage
 .pytest_cache/
+
+# Alembic (keep migrations, ignore cache)
+__pycache__/
