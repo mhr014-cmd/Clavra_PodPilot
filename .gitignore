@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+!.env.example
+
+# Node
+node_modules/
+.cache/
+*.local
+
+# Uploads & datasets (runtime files)
+uploads/
+datasets/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Test coverage
+htmlcov/
+.coverage
+.pytest_cache/
